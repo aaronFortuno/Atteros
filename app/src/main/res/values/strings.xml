@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Atteros</string>
+    <string name="game_title">Atteros</string>
+    <string name="play_button">PLAY</string>
+    <string name="settings_button">SETTINGS</string>
+    <string name="about_button">ABOUT</string>
+    <string name="quit_button">QUIT</string>
 </resources>
