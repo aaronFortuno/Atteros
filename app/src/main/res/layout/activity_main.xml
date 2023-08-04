@@ -65,7 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_settings" />
 
     <Button
-        android:id="@+id/btn_quit"
+        android:id="@+id/btn_leaderboard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -73,7 +73,7 @@
         android:layout_marginEnd="32dp"
         android:paddingLeft="32dp"
         android:paddingRight="32dp"
-        android:text="@string/quit_button"
+        android:text="@string/leaderboard_button"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
