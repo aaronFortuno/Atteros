@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static HighScores scores = new HighScoresArray();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void launchAbout() {
         Intent intent = new Intent(this, AboutActivity.class);
+        startActivity(intent);
+    }
+
+    public void launchLeaderboard() {
+        Intent intent = new Intent (this, LeaderboardActivity.class);
         startActivity(intent);
     }
 
